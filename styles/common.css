@@ -1,0 +1,14 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+   --button-color:            #0167db;
+   --header-footer-color:     #232a35;
+   --carousele-element-color: #bababa;
+   --date-color:              #6fb72f;
+}
