@@ -24,6 +24,7 @@
 iframe {
     height: 460px;
     width: 700px;
+    border: 0;
     scroll-behavior: unset;
     border: 1px 0px #ffffff;
 }
@@ -31,6 +32,7 @@ iframe {
 .footer__lower-block {
     background-color: var(--dark-background-color);
     color: var(--font-color);
+    padding-top: 40px;
 }
 
 .footer__link-block {
@@ -56,7 +58,7 @@ iframe {
 
 .footer__company-proclaim > p {
     color: #a9a9a9;
-    font-size: 14px;
+    font-size: 10px;
     font-style: normal;
 }
 
@@ -81,7 +83,7 @@ footer a {
 }
 
 .footer__form {
-    margin-left: 10vw;
+    margin-left: 4vw;
     font-weight: 200;
     font-size: 15px;
     letter-spacing: .05em;
@@ -137,3 +139,31 @@ footer h2 {
     font-weight: 700;
 }
 
+.footer__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+
+}
+
+.footer__icons a {
+    display: inline-block;
+    text-align: center;
+    background-color: var(--font-color);
+    border-radius: 7px;
+    height: 35px;
+    width: 35px;
+    padding-top: 6px;
+    color: var(--dark-background-color);
+    transition: 0.5s;
+}
+
+.footer__icons a:hover {
+    background-color: var(--date-color);
+    color: var(--font-color)
+}
+
+.footer__icons i {
+    font-size: 15px;
+    
+}
