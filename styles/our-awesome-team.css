@@ -1,25 +1,62 @@
 @import url(./common.css);
-*{
+
+* {
     margin: auto;
     padding: 0;
     box-sizing: border-box;
 }
+
 .our-aw-team {
     color: #fff;
-    background-image: url(../images/background-dark.webp);
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    display: block;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-image: url(../images/background-dark.webp);
+    text-align: center;
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+}
+
+.out__text-meet {
     display: flex;
-    padding: 1025;
+    color: #fff;
+    margin: auto;
+    text-align: center;
 }
 
+.foto__name-green {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: flex-end;
 
-
-
-.testimonials{
-    background-color: #222a35;
+.testimonials {
+    background-color: white
 }
-.container{
+
+.container {
     margin: auto;
     max-width: 980px;
+}
+.footer-testimonials{
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+h6{
+    text-align: center;
+    display: flex;
+}
+.our__text-title-watson{
+    text-align: center;
 }
