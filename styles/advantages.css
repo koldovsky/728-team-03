@@ -1,5 +1,6 @@
 .advantages__main {
     background: url(../images/group-of-people-sitting-in-the-office-and-working.jpeg);
+}
     
 .advantages {
     color: rgb(225, 225, 225);
@@ -19,6 +20,7 @@
     vertical-align: baseline;
     width: 320.301px;
     z-index: 1;
+    background-image: url(../images/group-of-people-sitting-in-the-office-and-working.jpeg);
     -webkit-font-smoothing: antialiased;
 }
 
