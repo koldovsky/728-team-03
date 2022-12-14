@@ -1,0 +1,25 @@
+@import url(./common.css);
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.our-aw-team {
+    color: #fff;
+    background-image: url(../images/background-dark.webp);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 1025;
+}
+
+
+
+
+.testimonials{
+    background-color: #222a35;
+}
+.container{
+    margin: auto;
+    max-width: 980px;
+}
