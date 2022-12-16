@@ -1,10 +1,21 @@
+.container__header {
+  width: fit-content;
+  height: fit-content;
+}
+
 .header__top {
-  box-sizing: border-box;
-  background-color: #222a35;
-  display: flex;
-  justify-content: space-between;
-  height: 42px;
-  font-family: Poppins, sans-serif;
+  display: none;
+}
+
+@media (min-width: 350px) {
+  .header__top {
+    display: block;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: var(--dark-background-color);
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .header__social__networks__list {
@@ -18,29 +29,21 @@
 }
 
 .header__top__phone {
-  box-sizing: border-box;
-  display: flex;
   margin-left: 60px;
   padding-top: 10px;
 }
 
 .header_top_phone_number {
-  color: white;
+  color: var(--white-color);
   cursor: pointer;
-  font-family: Poppins, sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   letter-spacing: 0.8px;
   line-height: 24px;
   overflow-wrap: break-word;
-  text-decoration-line: none;
-  text-decoration-style: solid;
 }
 
 .container__for_background__image {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(background-image.jpg);
+    url(../images/background-image.jpg);
   background-position: center;
   background-size: cover;
   min-height: 500px;
@@ -73,9 +76,9 @@ a {
 }
 
 .header__menu__item__link {
-  color: white;
+  color: var(--white-color);
   cursor: pointer;
-  font-family: Poppins, sans-serif;
+  font-family: var(--main-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -89,7 +92,6 @@ a {
 .header__refresh {
   display: flex;
   align-items: flex-start;
-  list-style: none;
   flex-direction: row;
   padding: 5px;
   margin-left: 60px;
@@ -98,100 +100,77 @@ a {
 }
 
 .alonium_refresh {
-  box-sizing: border-box;
-  color: white;
+  color: var(--white-color);
   cursor: pointer;
-  display: inline;
-  font-family: Poppins, sans-serif;
   font-size: 32px;
   font-style: italic;
   font-weight: 800;
-  letter-spacing: normal;
-  overflow-wrap: break-word;
-  text-decoration-thickness: auto;
-  text-transform: none;
-  vertical-align: baseline;
-  width: auto;
-  height: auto;
 }
 
 .alonium_point_refresh {
-  box-sizing: border-box;
-  color: #0167da !important;
+  color: var(--color-for-point);
   cursor: pointer;
-  display: inline;
-  font-family: Poppins, sans-serif;
   font-size: 32px;
   font-style: italic;
   font-weight: 800;
-  letter-spacing: normal;
-  overflow-wrap: break-word;
-  text-decoration-thickness: auto;
-  text-transform: none;
-  vertical-align: baseline;
-  width: auto;
-  height: auto;
 }
 
 .container__slogan {
   box-sizing: border-box;
-  color: white;
+  color: var(--white-color);
   display: flex;
   flex-basis: 100%;
   flex-direction: column;
   font-size: 16px;
   font-weight: 400;
   justify-content: flex-start;
-  line-height: 24px;
-  max-width: 100%;
-  min-width: 0px;
-  text-align: left;
-  vertical-align: baseline;
-  width: 540px;
   margin-left: 60px;
+  width: min-content;
 }
 
 .company__slogan__name {
-  box-sizing: border-box;
-  color: #222a35;
-  font-family: Saira, sana-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
   letter-spacing: 0.896px;
-  line-height: 18px;
-  overflow-wrap: break-word;
   text-align: left;
-  text-transform: none;
-  vertical-align: baseline;
 }
 
 .company__slogan__title {
-  box-sizing: border-box;
-  color: white;
-  font-family: Poppins, sans-serif;
   font-size: 76px;
-  font-style: normal;
-  font-weight: 800;
-  letter-spacing: normal;
   line-height: 91px;
-  overflow-wrap: break-word;
   text-align: left;
-  text-transform: none;
-  vertical-align: baseline;
+  width: min-content;
 }
 
 .company__slogan__subtitle {
-  box-sizing: border-box;
-  color: white;
-  font-family: Poppins, sans-serif;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: normal;
   line-height: 28px;
+}
+
+.header__buttons {
+  box-sizing: border-box;
+  color: var(--white-color);
+  display: block;
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  height: 72px;
+  line-height: 24px;
   overflow-wrap: break-word;
   text-align: left;
-  text-transform: none;
-  vertical-align: baseline;
+  width: 335px;
+}
+
+.header__buttons {
+  line-height: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 350px) {
+  .header__buttons {
+    line-height: 12px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
 }
