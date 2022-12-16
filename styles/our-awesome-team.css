@@ -49,6 +49,7 @@
     flex-wrap: wrap;
     align-content: flex-end;
     flex-direction: column;
+    margin: 600px;
 }
 .info__johnson {
     display: flex;
@@ -58,6 +59,7 @@
     flex-wrap: wrap;
     align-content: flex-end;
     flex-direction: column;
+    margin: 600px;
 }
 .info__smith{
     display: flex;
@@ -67,8 +69,47 @@
     flex-wrap: wrap;
     align-content: flex-end;
     flex-direction: column;
+    margin: 600px;
 }
-.numbers__social-green{
+.our__social-button-green{
+    display: flex;
+    border: #fff;
+    height: 50px;
+    width: 100px;
+    }
+    .numbers__social-green{
+        display: flex;
+        width: 3px;
+        height: 3px;
+        color: #fff;
+        width: 3px;
+        height: 3px;
+        color: #fff;
+        flex-direction: row;
+        align-content: flex-start;
+        justify-content: center;
+        align-items: baseline;
+      }
+li {
+    list-style-type: none;
+      }
+
+.numbers__social-fb-green{
+        margin: 10px;
+}
+.numbers__social-inst-green{
+    margin: 10px;
+}
+.numbers__social-youtube-green{
+    margin: 10px;
+}
+.our__social-button-johnson{
+    display: flex;
+    border: #fff;
+    height: 50px;
+    width: 100px;
+}
+.numbers__social-johnson{
     display: flex;
     width: 3px;
     height: 3px;
@@ -80,24 +121,46 @@
     align-content: flex-start;
     justify-content: center;
     align-items: baseline;
-  }
 }
 
-
-.numbers__social-fb-green{
-   margin-bottom: -15px;
-   margin-right: -7px;
-   margin-left: -7.5px;
-    
+.numbers__social-fb-johnson{
+    margin: 10px;
+}
+.numbers__social-inst-johnson{
+margin: 10px;
+}
+.numbers__social-youtube-johnson{
+margin: 10px;
+}
+.our__social-button-smith{
+    display: flex;
+    border: #fff;
+    height: 50px;
+    width: 100px;
+}
+.numbers__social-smith{
+    display: flex;
+    width: 3px;
+    height: 3px;
+    color: #fff;
+    width: 3px;
+    height: 3px;
+    color: #fff;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: baseline;
 }
 
+.numbers__social-fb-smith{
+    margin: 10px;
 }
-
-
-
-
-
-
+.numbers__social-inst-smith{
+margin: 10px;
+}
+.numbers__social-youtube-smith{
+margin: 10px;
+}
 
 .testimonials {
     background-color: white
@@ -106,13 +169,14 @@
 .container {
     margin: auto;
     max-width: 980px;
+    text-align: center;
 }
 .footer-testimonials{
-    margin: auto;
+    margin: 0;
     padding: 0;
     text-align: center;
 }
-h6{
+.testimon-title{
     text-align: center;
     display: flex;
 }
