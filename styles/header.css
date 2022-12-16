@@ -163,6 +163,7 @@ a {
   line-height: 12px;
   display: flex;
   justify-content: space-between;
+  text-align: left;
 }
 
 @media (min-width: 350px) {
@@ -172,5 +173,11 @@ a {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    text-align: left;
   }
+}
+
+.button__learn__more,
+.button__request__quote {
+  color: var(--white-color);
 }
