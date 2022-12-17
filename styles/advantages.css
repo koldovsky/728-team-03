@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 
     .advantages {
+=======
+.advantages__main {
+    background: url(../images/group-of-people-sitting-in-the-office-and-working.jpeg);
+}
+    
+.advantages {
+>>>>>>> 8ab91ac164caa8ab35d9593529785332efbfd033
     color: rgb(225, 225, 225);
     display: block;
     flex-basis: 100%;
@@ -16,6 +24,7 @@
     position: relative;
     width: 320.301px;
     z-index: 1;
+    background-image: url(../images/group-of-people-sitting-in-the-office-and-working.jpeg);
     -webkit-font-smoothing: antialiased;
 }
 
