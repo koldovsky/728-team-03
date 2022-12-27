@@ -1,5 +1,96 @@
 .careers__main {
     background-image: url(../images/girl-with-computer.jpg);
-    
-
+    background-size: cover;
+    min-height: 670px;
+    display: flex;
 }
+
+.box__container {
+    height: 700px;
+    width: 1500px;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.numbers__social a {
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #1080fe;
+    border-radius: 4px;
+    height: 28px;
+    width: 28px;
+    padding-top: 2px;
+    color: white;
+  
+}
+
+.numbers__social {
+    display: block;
+    position: relative;
+  
+}
+
+.container__a {
+    
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0);
+}
+
+.container__b {
+    padding: 20px;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.careers__info {
+    max-width: 100%;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    position: relative;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&display=swap');
+
+.careers__info__blue-text {
+    font-family: Saira, sans-serif;
+    text-align: left;
+    font-size: 14px;
+    font-style: normal;
+    /*color: #0167da;*/
+    text-transform: uppercase;
+}
+
+.careers__info__title {
+    font-weight: bold;
+    justify-content: flex-start;
+}
+
+.careers__info__bold-text {
+    color: rgb(34, 42, 53);
+    font-size: 18px;
+}
+
+.careers__info__text {
+    color: rgb(112, 112, 112);
+    font-size: 16px;
+}
+
+.follow-us {
+    display: flex;
+    color: rgb(34, 42, 53);
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: flex-start;
+}
+
+
+
+

@@ -33,3 +33,82 @@
     width: 50%;
     color: #fff;
 }
+
+.w-text-content-why {
+    box-sizing: border-box;
+    color: rgb(225, 225, 225);
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    height: auto;
+    letter-spacing: normal;
+    line-height: 45.6px;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-transform: none;
+    vertical-align: baseline;
+    width: auto;
+    -webkit-box-direction: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+.w-text-content {
+    box-sizing: border-box;
+    color: rgb(225, 225, 225);
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    height: auto;
+    letter-spacing: normal;
+    line-height: 28.08px;
+    overflow-wrap: break-word;
+    text-align: center;
+    text-transform: none;
+    vertical-align: baseline;
+    width: auto;
+    -webkit-box-direction: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+.w-grid__item-inner, .w-grid__item-panel, .w-text-center, .w-088754deb0dd8820b733e12d9894218e {
+    box-sizing: border-box;
+    color: rgb(225, 225, 225);
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    height: 312.694px;
+    line-height: 24px;
+    max-width: 100%;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    text-align: center;
+    vertical-align: baseline;
+    width: 272.31px;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: start;
+    -webkit-font-smoothing: antialiased;
+}
+
+.w-section__inner {
+    box-sizing: border-box;
+    color: rgb(225, 225, 225);
+    display: block;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    height: 937.576px;
+    line-height: 24px;
+    max-width: 1200px;
+    overflow-wrap: break-word;
+    vertical-align: baseline;
+    width: 320.301px;
+    -webkit-font-smoothing: antialiased;
+}
