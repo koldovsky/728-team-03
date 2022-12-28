@@ -1,0 +1,66 @@
+.music-container {
+  background-color: var(--dark-background-color);
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+  z-index: 10;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.action-btn {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 20px;
+  border-radius: 15px;
+}
+
+.action-btn.action-btn-big {
+  font-size: 30px;
+}
+
+.action-btn:focus {
+  outline: 0;
+}
+
+.music-info {
+  background-color: hsla(0, 2%, 66%, 0.502);
+  border-radius: 0 0 15px 15px;
+  position: absolute;
+  padding-left: 110px;
+  padding-right: 100px;
+  opacity: 0;
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+  z-index: 0;
+}
+
+.music-container.play .music-info {
+  opacity: 1;
+  transform: translateY(+120%);
+}
+
+.music-info h4 {
+  margin: 0;
+}
+
+.progress-container {
+  background-color: var(--white-color);
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 10px;
+}
+
+.progress {
+  background-color: var(--color-for-point);
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
