@@ -1,11 +1,47 @@
 @import url(./common.css);
+@import url('href="https://fonts.googleapis.com/css2?family=Crimson+Pro');
 
 * {
-    margin: auto;
-    padding: 0;
+       padding: 0;
     box-sizing: border-box;
 }
+.block__head-our-team-container{
+    background-image: url(../images/background-our-awesome-team.jpg);  //Чорний фон для блоку 1/2
+}
 
+.testimonials{
+    background-color: white;
+}
+.head-name-our{
+    color: #fff;
+    text-align: center;
+}
+.our__text-meet{
+    color: #fff;
+    text-align: center;
+    padding: 20, 40;
+}
+.foto__name-green{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.info__green{
+    color: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 40px;
+}
+
+.photo__name-position-text-green{
+    font-size: inherit;
+    font-family: 'Crimson Pro', serif;
+    font-size: 14px;
+}
+
+}
 .our-aw-team {
     color: #fff;
     box-sizing: border-box;
@@ -16,7 +52,6 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    background-image: url(../images/background-our-awesome-team.jpg);
     text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
@@ -25,6 +60,19 @@
     align-items: center;
 }
 
+.numbers__social-green{
+    padding-left: 3rem;
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+      }
+.numbers__social-fb-green{
+    width: 100%;
+  height: auto;
+   
+}
+/*
 .awesome-team {
     display: flex;
     margin: auto;
