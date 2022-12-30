@@ -1,11 +1,73 @@
 @import url(./common.css);
+@import url('href="https://fonts.googleapis.com/css2?family=Crimson+Pro');
 
 * {
-    margin: auto;
-    padding: 0;
+       padding: 0;
     box-sizing: border-box;
 }
+.block__head-our-team{
+    background-image: url(../images/background-our-awesome-team.jpg);  //Чорний фон для блоку 1/2
+}
 
+.testimonials{
+    background-color: white;
+}
+.head-name-our{
+    color: #fff;
+    text-align: center;
+}
+.our__text-meet{
+    color: #fff;
+    text-align: center;
+    padding: 20, 40;
+}
+.foto__name-green{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.info__green{
+    color: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 40px;
+}
+.info__johnson{
+    color: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 40px;
+
+}
+.numbers__social-johnson{
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.info__smith{
+    color: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 40px;
+}
+.numbers__social-smith{
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+
+.photo__name-position-text-green{
+    font-size: inherit;
+    font-family: 'Crimson Pro', serif;
+    font-size: 14px;
+}
+
+}
 .our-aw-team {
     color: #fff;
     box-sizing: border-box;
@@ -16,7 +78,6 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    background-image: url(../images/background-our-awesome-team.jpg);
     text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
@@ -25,161 +86,26 @@
     align-items: center;
 }
 
-.awesome-team {
+.numbers__social-green{
+    padding-left: 3rem;
+    list-style-type:none;
     display: flex;
-    margin: auto;
-    text-align: center;
-}
-
-.out__text-meet {
-    display: flex;
-    color: #fff;
-    margin: auto;
-    text-align: center;
-}
-
-.foto__blok-info-team{
-    display: flex;
-}
-.info__green {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    align-items: baseline;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    flex-direction: column;
-    margin: 600px;
-}
-.info__johnson {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    align-items: baseline;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    flex-direction: column;
-    margin: 600px;
-}
-.info__smith{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    align-items: baseline;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    flex-direction: column;
-    margin: 600px;
-}
-.our__social-button-green{
-    display: flex;
-    border: #fff;
-    height: 50px;
-    width: 100px;
-    }
-    .numbers__social-green{
-        display: flex;
-        width: 3px;
-        height: 3px;
-        color: #fff;
-        width: 3px;
-        height: 3px;
-        color: #fff;
-        flex-direction: row;
-        align-content: flex-start;
-        justify-content: center;
-        align-items: baseline;
+    flex-direction: row;
+    flex-wrap: nowrap;
       }
-li {
-    list-style-type: none;
-      }
-
 .numbers__social-fb-green{
-        margin: 10px;
-}
-.numbers__social-inst-green{
-    margin: 10px;
-}
-.numbers__social-youtube-green{
-    margin: 10px;
-}
-.our__social-button-johnson{
-    display: flex;
-    border: #fff;
-    height: 50px;
-    width: 100px;
-}
-.numbers__social-johnson{
-    display: flex;
-    width: 3px;
-    height: 3px;
-    color: #fff;
-    width: 3px;
-    height: 3px;
-    color: #fff;
-    flex-direction: row;
-    align-content: flex-start;
-    justify-content: center;
-    align-items: baseline;
-}
-
-.numbers__social-fb-johnson{
-    margin: 10px;
-}
-.numbers__social-inst-johnson{
-margin: 10px;
-}
-.numbers__social-youtube-johnson{
-margin: 10px;
-}
-.our__social-button-smith{
-    display: flex;
-    border: #fff;
-    height: 50px;
-    width: 100px;
-}
-.numbers__social-smith{
-    display: flex;
-    width: 3px;
-    height: 3px;
-    color: #fff;
-    width: 3px;
-    height: 3px;
-    color: #fff;
-    flex-direction: row;
-    align-content: flex-start;
-    justify-content: center;
-    align-items: baseline;
-}
-
-.numbers__social-fb-smith{
-    margin: 10px;
-}
-.numbers__social-inst-smith{
-margin: 10px;
-}
-.numbers__social-youtube-smith{
-margin: 10px;
-}
-
-.testimonials {
-    background-color: white
-}
-
-.container {
-    margin: auto;
-    max-width: 980px;
+    width: 100%;
+  height: auto;
+   }
+.testimonials{
     text-align: center;
-}
-.footer-testimonials{
     margin: 0;
-    padding: 0;
-    text-align: center;
+    padding: 40px;
 }
-.testimon-title{
-    text-align: center;
-    display: flex;
+.header-testimonials{
+    font-size: 20px;
+    font-weight:400200;
 }
-.our__text-title-watson{
-    text-align: center;
+.colortext-point{
+    color: blue;
 }
