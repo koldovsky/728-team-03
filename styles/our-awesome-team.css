@@ -1,4 +1,3 @@
-@import url(./common.css);
 @import url('href="https://fonts.googleapis.com/css2?family=Crimson+Pro');
 
 * {
@@ -6,7 +5,7 @@
     box-sizing: border-box;
 }
 .block__head-our-team_container__team{
-    background-image: url(../images/background-our-awesome-team.jpg);  //Чорний фон для блоку 1/2
+    background-image: url(../images/background-our-awesome-team.jpg);  /* Чорний фон для блоку 1/2 */
 }
 
 .testimonials{
@@ -26,6 +25,10 @@
     display: flex;
     flex-direction: column;
  
+}
+
+.photo {
+    width: 50vw;
 }
 
 .info__green{
@@ -81,7 +84,6 @@
     font-size: 14px;
 }
 
-}
 .our-aw-team {
     color: #fff;
     box-sizing: border-box;
@@ -122,4 +124,8 @@
 }
 .colortext-point{
     color: blue;
+}
+
+.logo {
+    margin-bottom:  100px;
 }
