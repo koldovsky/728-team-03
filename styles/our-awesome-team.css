@@ -34,6 +34,32 @@
     margin: 0;
     padding: 40px;
 }
+.info__johnson{
+    color: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 40px;
+
+}
+.numbers__social-johnson{
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.info__smith{
+    color: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 40px;
+}
+.numbers__social-smith{
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
 
 .photo__name-position-text-green{
     font-size: inherit;
@@ -70,8 +96,20 @@
 .numbers__social-fb-green{
     width: 100%;
   height: auto;
-   
+   }
+.testimonials{
+    text-align: center;
+    margin: 0;
+    padding: 40px;
 }
+.header-testimonials{
+    font-size: 20px;
+    font-weight:400200;
+}
+.colortext-point{
+    color: blue;
+}
+
 /*
 .awesome-team {
     display: flex;
