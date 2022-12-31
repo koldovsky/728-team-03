@@ -1,4 +1,4 @@
-@import url('href="https://fonts.googleapis.com/css2?family=Crimson+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;400&display=swap');
 
 * {
        padding: 0;
@@ -78,10 +78,12 @@
 }
 
 
-.photo__name-position-text-green{
+.photo__name-partner{
     font-size: inherit;
-    font-family: 'Crimson Pro', serif;
-    font-size: 14px;
+    font-family: 'Saira', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
 }
 
 .our-aw-team {
@@ -128,4 +130,14 @@
 
 .logo {
     margin-bottom:  100px;
+}
+
+.icons{
+    text-align: left;
+    margin: 0;
+    padding: 40px;
+    
+}
+.our__text-general-watson{
+color: grey;
 }
