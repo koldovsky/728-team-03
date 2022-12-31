@@ -21,6 +21,7 @@
   --color-for-point:         #0f59d1;
   --company-clogan-name:     #a9a9a9;
   --text-grey-color:         #707070;
+  scroll-behavior: smooth; /*  Для плавної прокрутки*/
 }
 
 h2 {
