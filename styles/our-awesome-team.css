@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;400&display=swap');
 
-* {
+.general-block{
+    display: flex;
+    flex-direction: column;
+}
+@media(min-width: 768px){
+   .general-photos-with-text{
+    display: flex;
+    gap: 20px;
+    background-image: url(../images/background-our-awesome-team.jpg);  /* Чорний фон для блоку 1/2 */
+    }
+*{
        padding: 0;
+       margin: 0;
     box-sizing: border-box;
 }
 .block__head-our-team_container__team{
     background-image: url(../images/background-our-awesome-team.jpg);  /* Чорний фон для блоку 1/2 */
 }
-
-.testimonials{
-    background-color: white;
+.general-photos-with-text{
+    background-image: url(../images/background-our-awesome-team.jpg);  /* Чорний фон для блоку 1/2 */
+    padding: 20, 40, 20, 20;
+    block-size: 50em;
+    width: 100%;
+   
 }
 .head-name-our{
     color: #fff;
@@ -24,11 +38,9 @@
     margin: auto;
     display: flex;
     flex-direction: column;
- 
-}
-
+ }
 .photo {
-    width: 50vw;
+    width: 30vw;
 }
 
 .info__green{
@@ -50,94 +62,45 @@
     padding: 40px;
 
 }
-.numbers__social-johnson{
-    margin: auto;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    list-style-type:none;
-}
 .foto__name-smith{
     margin: auto;
     display: flex;
     flex-direction: column;
- 
-}
+ }
 .info__smith{
     color: #fff;
     text-align: left;
     margin: 0;
     padding: 40px;
 }
-.numbers__social-smith{
-    margin: auto;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    list-style-type:none;
-}
-
-
-.photo__name-partner{
+ .photo__name-partner{
     font-size: inherit;
     font-family: 'Saira', sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: gray;
 }
-
-.our-aw-team {
-    color: #fff;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    text-align: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.numbers__social-green{
-    padding-left: 3rem;
-    list-style-type:none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-      }
-.numbers__social-fb-green{
-    width: 100%;
-  height: auto;
-   }
 .testimonials{
     text-align: center;
     margin: 0;
     padding: 40px;
+    background-color: white;
 }
 .header-testimonials{
     font-size: 20px;
-    font-weight:400200;
+    
 }
 .colortext-point{
     color: blue;
 }
-
 .logo {
     margin-bottom:  100px;
 }
-
 .icons{
     text-align: left;
     margin: 0;
     padding: 40px;
-    
-}
+    }
 .our__text-general-watson{
 color: grey;
 }
