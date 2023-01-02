@@ -216,7 +216,7 @@ footer a {
     padding-bottom: 100px;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 220px) {
 
     .footer__upper-block-inner {
         display: flex;
@@ -226,7 +226,7 @@ footer a {
     }
 
     iframe {
-        width: 90vw;
+        width: 80vw;
         height: 500px;
         margin-top: 70px;
     }
