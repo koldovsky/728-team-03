@@ -49,6 +49,23 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    .container__b {
+        height: 400px;
+        width: 719px;
+    }
+
+    .container__a {
+        height: 0px;
+        width: 0px;
+    }
+
+    .box__container {
+        height: 400px;
+        width: 719px;
+    }
+}
+
 .careers__info {
     max-width: 100%;
     padding-bottom: 25px;
@@ -73,6 +90,7 @@
 .careers__info__title {
     font-weight: bold;
     justify-content: flex-start;
+    font-size: 30px;
 }
 
 .careers__info__bold-text {
