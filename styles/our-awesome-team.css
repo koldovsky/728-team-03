@@ -1,9 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;400&display=swap');
-
 .general-block{
     display: flex;
     flex-direction: column;
+    }
+    .block__head-our-team_container__team{
+        background-image: url(../images/background-our-awesome-team.jpg);
+        text-align: center;
+        color: #fff;
+        padding: 90px 0px 90px 0px;
+        font-size: 16px;
+    }
+    .general-photos-with-text{
+        background-image: url(../images/background-our-awesome-team.jpg);
+    }
+    .name-partner{
+        color: #fff;
+        text-align: center;
+        padding: 10px; 
+        font-weight: 500;
+    }
+    .partner{
+        font-size: inherit;
+        font-family: 'Saira', sans-serif;
+        color: gray; 
+        
+    }
+    .testimonials{
+        text-align: center;
+        margin: 0;
+        padding: 40px;
+        background-color: white;
+    }
+    .header-testimonials{
+        font-size: 20px;
+    }
+    
+.colortext-point{
+    color: blue;
 }
+@media (max-width: 768px) {
+    .photo {
+        width: 272px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px; 
+    }
+
+}
+
+@media (min-width: 768px) {
+    .photo {
+        width: 216px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px; 
+    }
+    *.general-photos-with-text{
+        display: flex;
+        flex-direction: row;
+    }
+}
+/*
 @media(min-width: 768px){
    .general-photos-with-text{
     display: flex;
@@ -11,19 +69,24 @@
     background-image: url(../images/background-our-awesome-team.jpg);  /* Чорний фон для блоку 1/2 */
     }
 *{
+    /*
        padding: 0;
        margin: 0;
     box-sizing: border-box;
 }
-.block__head-our-team_container__team{
+/*.block__head-our-team_container__team{
     background-image: url(../images/background-our-awesome-team.jpg);  /* Чорний фон для блоку 1/2 */
 }
-.general-photos-with-text{
+/*.general-photos-with-text{
     background-image: url(../images/background-our-awesome-team.jpg);  /* Чорний фон для блоку 1/2 */
-    padding: 20, 40, 20, 20;
+   /* padding: 20, 40, 20, 20;
     block-size: 50em;
     width: 100%;
    
+/*
+
+
+
 }
 .head-name-our{
     color: #fff;
@@ -89,9 +152,6 @@
 .header-testimonials{
     font-size: 20px;
     
-}
-.colortext-point{
-    color: blue;
 }
 .logo {
     margin-bottom:  100px;
