@@ -14,12 +14,15 @@
         color: var(--font-color);
     }
 
-    iframe {
-        width: 80vw;
-        height: 500px;
+    .footer__map {
         margin-top: 70px;
     }
 
+    iframe {
+        width: 80vw;
+        height: 500px;
+    }
+    
     .footer__lower-block {
         background-color: var(--dark-background-color);
         padding: 30px 0px 30px 0px;
@@ -151,7 +154,7 @@
     .footer__company-proclaim>p {
         width: 300px;
         color: var(--text-grey-color);
-        margin-top: -100px;
+        margin-top: 0px;
         font-size: 13px;
     }
 
