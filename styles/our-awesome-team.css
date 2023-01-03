@@ -1,167 +1,71 @@
-.general-block{
+.general-block {
     display: flex;
     flex-direction: column;
-    }
-    .block__head-our-team_container__team{
-        background-image: url(../images/background-our-awesome-team.jpg);
-        text-align: center;
-        color: #fff;
-        padding: 90px 0px 90px 0px;
-        font-size: 16px;
-    }
-    .general-photos-with-text{
-        background-image: url(../images/background-our-awesome-team.jpg);
-    }
-    .name-partner{
-        color: #fff;
-        text-align: center;
-        padding: 10px; 
-        font-weight: 500;
-    }
-    .partner{
-        font-size: inherit;
-        font-family: 'Saira', sans-serif;
-        color: gray; 
-        
-    }
-    .testimonials{
-        text-align: center;
-        margin: 0;
-        padding: 40px;
-        background-color: white;
-    }
-    .header-testimonials{
-        font-size: 20px;
-    }
-    
-.colortext-point{
-    color: blue;
-}
-@media (max-width: 768px) {
-    .photo {
-        width: 272px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px; 
-    }
-
+    overflow-x: hidden;
 }
 
-@media (min-width: 768px) {
-    .photo {
-        width: 216px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px; 
-    }
-    *.general-photos-with-text{
-        display: flex;
-        flex-direction: row;
-    }
+.general-block-background {
+    background-image: url(../images/background-our-awesome-team.jpg);
+    background-size: cover;
+    /*максимально розтягує картинку*/
 }
-/*
-@media(min-width: 768px){
-   .general-photos-with-text{
-    display: flex;
-    gap: 20px;
-    background-image: url(../images/background-our-awesome-team.jpg);  /* Чорний фон для блоку 1/2 */
-    }
-*{
-    /*
-       padding: 0;
-       margin: 0;
-    box-sizing: border-box;
-}
-/*.block__head-our-team_container__team{
-    background-image: url(../images/background-our-awesome-team.jpg);  /* Чорний фон для блоку 1/2 */
-}
-/*.general-photos-with-text{
-    background-image: url(../images/background-our-awesome-team.jpg);  /* Чорний фон для блоку 1/2 */
-   /* padding: 20, 40, 20, 20;
-    block-size: 50em;
-    width: 100%;
-   
-/*
 
-
-
-}
-.head-name-our{
-    color: #fff;
+.block__head-our-team_container__team {
     text-align: center;
-}
-.our__text-meet{
     color: #fff;
-    text-align: center;
-    padding: 20, 40;
-}
-.foto__name-green{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
- }
-.photo {
-    width: 30vw;
+    padding: 20px;
+    font-size: 16px;
 }
 
-.info__green{
+.name-partner {
     color: #fff;
     text-align: left;
-    margin: 0;
-    padding: 40px;
+    padding: 10px;
 }
-.foto__name-johnson{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
- 
-}
-.info__johnson{
-    color: #fff;
-    text-align: left;
-    margin: 0;
-    padding: 40px;
 
-}
-.foto__name-smith{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
- }
-.info__smith{
-    color: #fff;
-    text-align: left;
-    margin: 0;
-    padding: 40px;
-}
- .photo__name-partner{
+.partner {
     font-size: inherit;
     font-family: 'Saira', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
     color: gray;
+    text-align: left;
 }
-.testimonials{
+
+.testimonials {
     text-align: center;
     margin: 0;
     padding: 40px;
     background-color: white;
 }
-.header-testimonials{
+
+.header-testimonials {
     font-size: 20px;
-    
 }
-.logo {
-    margin-bottom:  100px;
+
+.colortext-point {
+    color: blue;
 }
-.general-photos-with-text .icons{
-    text-align: left;
-    margin: 0;
-    padding: 40px;
+
+@media (min-width: 320px) {
+    .photo {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
     }
-.our__text-general-watson{
-color: grey;
 }
+
+@media (min-width: 768px) {
+    /*Переключає на Div рядок*/
+    .photo {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+    *.general-photos-with-text {
+        display: flex;
+        flex-direction: row;
+    }
 }
