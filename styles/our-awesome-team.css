@@ -1,16 +1,92 @@
-@import url(./common.css);
-@import url('href="https://fonts.googleapis.com/css2?family=Crimson+Pro');
+.general-block{
+    display: flex;
+    flex-direction: column;
+    }
+    .block__head-our-team_container__team{
+        background-image: url(../images/background-our-awesome-team.jpg);
+        text-align: center;
+        color: #fff;
+        padding: 90px 0px 90px 0px;
+        font-size: 16px;
+    }
+    .general-photos-with-text{
+        background-image: url(../images/background-our-awesome-team.jpg);
+    }
+    .name-partner{
+        color: #fff;
+        text-align: center;
+        padding: 10px; 
+        font-weight: 500;
+    }
+    .partner{
+        font-size: inherit;
+        font-family: 'Saira', sans-serif;
+        color: gray; 
+        
+    }
+    .testimonials{
+        text-align: center;
+        margin: 0;
+        padding: 40px;
+        background-color: white;
+    }
+    .header-testimonials{
+        font-size: 20px;
+    }
+    
+.colortext-point{
+    color: blue;
+}
+@media (max-width: 768px) {
+    .photo {
+        width: 272px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px; 
+    }
 
-* {
+}
+
+@media (min-width: 768px) {
+    .photo {
+        width: 216px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px; 
+    }
+    *.general-photos-with-text{
+        display: flex;
+        flex-direction: row;
+    }
+}
+/*
+@media(min-width: 768px){
+   .general-photos-with-text{
+    display: flex;
+    gap: 20px;
+    background-image: url(../images/background-our-awesome-team.jpg);  /* Чорний фон для блоку 1/2 */
+    }
+*{
+    /*
        padding: 0;
+       margin: 0;
     box-sizing: border-box;
 }
-.block__head-our-team{
-    background-image: url(../images/background-our-awesome-team.jpg);  //Чорний фон для блоку 1/2
+/*.block__head-our-team_container__team{
+    background-image: url(../images/background-our-awesome-team.jpg);  /* Чорний фон для блоку 1/2 */
 }
+/*.general-photos-with-text{
+    background-image: url(../images/background-our-awesome-team.jpg);  /* Чорний фон для блоку 1/2 */
+   /* padding: 20, 40, 20, 20;
+    block-size: 50em;
+    width: 100%;
+   
+/*
 
-.testimonials{
-    background-color: white;
+
+
 }
 .head-name-our{
     color: #fff;
@@ -25,7 +101,9 @@
     margin: auto;
     display: flex;
     flex-direction: column;
- 
+ }
+.photo {
+    width: 30vw;
 }
 
 .info__green{
@@ -34,6 +112,12 @@
     margin: 0;
     padding: 40px;
 }
+.foto__name-johnson{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+ 
+}
 .info__johnson{
     color: #fff;
     text-align: left;
@@ -41,71 +125,43 @@
     padding: 40px;
 
 }
-.numbers__social-johnson{
+.foto__name-smith{
     margin: auto;
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-}
+    flex-direction: column;
+ }
 .info__smith{
     color: #fff;
     text-align: left;
     margin: 0;
     padding: 40px;
 }
-.numbers__social-smith{
-    margin: auto;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-}
-
-
-.photo__name-position-text-green{
+ .photo__name-partner{
     font-size: inherit;
-    font-family: 'Crimson Pro', serif;
-    font-size: 14px;
+    font-family: 'Saira', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
 }
-
-}
-.our-aw-team {
-    color: #fff;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    text-align: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.numbers__social-green{
-    padding-left: 3rem;
-    list-style-type:none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-      }
-.numbers__social-fb-green{
-    width: 100%;
-  height: auto;
-   }
 .testimonials{
     text-align: center;
     margin: 0;
     padding: 40px;
+    background-color: white;
 }
 .header-testimonials{
     font-size: 20px;
-    font-weight:400200;
+    
 }
-.colortext-point{
-    color: blue;
+.logo {
+    margin-bottom:  100px;
+}
+.general-photos-with-text .icons{
+    text-align: left;
+    margin: 0;
+    padding: 40px;
+    }
+.our__text-general-watson{
+color: grey;
+}
 }
