@@ -6,7 +6,7 @@
 }
 
 .box__container {
-    height: 700px;
+    min-height: 700px;
     width: 1500px;
     padding: 80px;
     display: flex;
@@ -29,7 +29,8 @@
 .numbers__social {
     display: block;
     position: relative;
-  
+    margin: 10px;
+    padding: 0;
 }
 
 .container__a {
@@ -48,13 +49,33 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    .container__b {
+        min-height: 400px;
+        min-width: 300px;
+         
+    }
+
+    .container__a {
+        height: 0px;
+        width: 0px;
+    }
+
+    .box__container {
+        min-height: 400px;
+        min-width: 300px;
+        
+    }
+}
+
 .careers__info {
     max-width: 100%;
     padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
+   /* padding-left: 25px;
+    padding-right: 25px;*/
     padding-top: 25px;
     position: relative;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&display=swap');
@@ -71,6 +92,7 @@
 .careers__info__title {
     font-weight: bold;
     justify-content: flex-start;
+    font-size: 30px;
 }
 
 .careers__info__bold-text {
@@ -89,6 +111,7 @@
     font-size: 18px;
     font-weight: bold;
     justify-content: flex-start;
+    margin: 6px 6px 0 0;
 }
 
 
