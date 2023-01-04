@@ -1,19 +1,134 @@
+@import url(./common.css);
+
+footer {
+    color: var(--font-color);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--font-color);
+}
 
 .footer__upper-block {
     background-image: url(../images/background-dark.webp);
-    padding-top: 50px;
-    padding-bottom: 100px;
 }
 
-@media (min-width: 320px) {
+.footer__lower-block {
+    background-color: var(--dark-background-color);
+    color: var(--font-color);
+}
 
-    .footer__upper-block-inner {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+.footer__icons a {
+    display: inline-block;
+    text-align: center;
+    background-color: var(--font-color);
+    border-radius: 7px;
+    height: 35px;
+    width: 35px;
+    padding-top: 6px;
+    color: var(--dark-background-color);
+    transition: 0.5s;
+}
+
+.footer__icons a:hover {
+    background-color: var(--date-color);
+    color: var(--font-color)
+}
+
+.footer__icons i {
+    font-size: 15px;
+    
+}
+
+.footer__map iframe{
+    width: 60vw;
+    height: 439px;
+}
+
+.footer__contact-block {
+    margin-bottom: 50px;
+}
+
+#submit {
+    width: 30vw;
+    margin-top: 20px;
+    background-color: var(--font-color);
+    border: none;
+    color: var(--carousele-element-color);
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#submit:hover {
+    background-color: var(--date-color);
+    color: var(--font-color);
+}
+
+#input__email {
+    width: 30vw;
+    height: 20px;
+    padding: 20px 30px;
+    font-size: 12px;
+    writing-mode: horizontal-tb;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.12);
+    border: none;
+}
+
+.footer__company-proclaim p {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.footer__company-proclaim p span {
+    color: var(--button-color)
+}
+
+.footer__company-proclaim > p {
+    color: #a9a9a9;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.footer__copyright {
+    margin-top: 20px;
+    padding: 20px 0px;
+    border-top: 1px solid var(--carousele-element-color);
+    font-size: 12px;
+    color: var(--carousele-element-color);
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+
+@media (min-width: 320px) {
+    .footer__upper-block {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 90px 24px;
         color: var(--font-color);
+        
+    }
+    .footer__contact-block {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        
     }
 
+<<<<<<< HEAD
     iframe {
         width: 80vw;
         height: 500px;
@@ -40,109 +155,35 @@
         border-radius: 5px;
         transition: 0.5s;
     }
-
-    #submit:hover {
-        background-color: var(--date-color);
-        color: var(--font-color);
+=======
+    .footer__lower-block {
+        text-align: center;
     }
+    
+}
+>>>>>>> parent of 9837c28 (Merge branch 'main' of https://github.com/koldovsky/728-team-03 into main)
 
-    #input__email {
-        width: 200px;
-        height: 20px;
-        padding: 20px 30px;
-        font-size: 12px;
-        writing-mode: horizontal-tb;
-        border-radius: 5px;
-        background-color: rgba(255, 255, 255, 0.12);
-        border: none;
-    }
+@media (min-width: 768px) {
 
-    .footer__navs a {
-        text-decoration: none;
-        color: var(--font-color);
-    }
-
-    .footer__company-proclaim>p {
-        width: 300px;
-        color: var(--text-grey-color);
-        margin-top: -20px;
-        font-size: 13px;
-    }
-
-    .footer__company-proclaim .logo {
-        margin-left: 30px;
-    }
-
-    .footer__copyright {
-        border-top: 1px solid var(--text-grey-color);
+    .footer__upper-block {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 20px;
-        padding-top: 10px;
-        color: var(--text-grey-color);
-        font-size: 13px;
-    }
-
-    .footer__link-block {
-
-        display: flex;
-        flex-direction: column;
         justify-content: center;
-
+        height: 20vh;
     }
 
-    .footer__form p {
-        width: 400px;
-        margin-bottom: 10px;
-    }
-
-    .footer__form {
-        margin-top: 40px;
-    }
-
-}
-
-@media (min-width: 750px) {
-
-    .footer__company-proclaim>p {
-        margin-top: 0px;
-    }
-
-}
-
-
-@media (min-width: 1200px) {
-
-    .footer__contact-block {
-
-        margin-top: 60px;
-
-    }
-
-    .footer__upper-block-inner {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: var(--font-color);
-    }
-
-    .footer__contact-block h3 {
-        font-weight: 800;
-    }
-
-    iframe {
-        width: 770px;
-        height: 500px;
+    .footer__upper-block {
+        height: 632px;
+        padding-left: 20vw;
+        padding-right: 10vw;
     }
 
     .footer__lower-block {
-        background-color: var(--dark-background-color);
-        padding: 30px 0px 30px 0px;
+        padding-left: 20vw;
     }
 
-    .footer__link-block {
+    .footer__link-block{
         display: flex;
+<<<<<<< HEAD
         flex-direction: row;
         justify-content: space-between;
         color: var(--font-color);
@@ -162,72 +203,60 @@
     .follow__us {
         width: 300px;
         padding-left: 100px;
+=======
+>>>>>>> parent of 9837c28 (Merge branch 'main' of https://github.com/koldovsky/728-team-03 into main)
     }
 
     .footer__navs {
+        width: 25vw;
+        padding-left: 30px;
+        padding-right: 30px;
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
-        width: 700px;
-        padding: 0px 60px 0px 50px;
     }
 
-    .footer__navs a {
-        text-decoration: none;
-        color: var(--font-color);
+    .footer__company-proclaim {
+        width: 200px;
+        text-align: left;
+    }
+
+    .footer__map iframe{
+        width: 500px;
+    }
+
+    .footer__icons {
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+    
+    }
+
+    .footer__form {
+        width: 250px;
+        margin-left: 20 px;
+    }
+    
+    form {
+        width: 250px;
     }
 
     #submit {
         width: 200px;
-        margin-top: 20px;
-        background-color: var(--font-color);
-        border: none;
-        color: var(--carousele-element-color);
-        padding: 15px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 10px;
-        border-radius: 5px;
-        transition: 0.5s;
-    }
-
-    #submit:hover {
-        background-color: var(--date-color);
-        color: var(--font-color);
     }
 
     #input__email {
         width: 200px;
-        height: 20px;
-        padding: 20px 30px;
-        font-size: 12px;
-        writing-mode: horizontal-tb;
-        border-radius: 5px;
-        background-color: rgba(255, 255, 255, 0.12);
-        border: none;
-    }
-
-    .footer__form p {
-        width: 200px;
-        margin-bottom: 20px;
-    }
-
-    .footer__form {
-        margin-top: -10px;
-        margin-left: 30px;
     }
 
     .footer__copyright {
-        border-top: 1px solid var(--text-grey-color);
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
+        width: 72vw;
         margin-top: 20px;
-        padding-top: 10px;
-        color: var(--text-grey-color);
-        font-size: 13px;
+        padding: 20px 0px;
+        border-top: 1px solid var(--carousele-element-color);
+        font-size: 12px;
+        color: var(--carousele-element-color);
     }
 
 }
-

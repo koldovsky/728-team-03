@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
+
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;400&display=swap'); /*Андрій окремий стиль на підписи*/
 
 * {
   margin: 0;
@@ -11,64 +11,14 @@
 }
 
 :root {
-  --button-color:            #0167db;
-  --header-footer-color:     #232a35;
+  --button-color: #0167db;
+  --header-footer-color: #232a35;
   --carousele-element-color: #bababa;
-  --date-color:              #6fb72f;
-  --font-color:              #ffffff;
-  --white-color:             #fff;
-  --dark-background-color:   #232a35;
-  --color-for-point:         #0f59d1;
-  --company-clogan-name:     #a9a9a9;
-  --text-grey-color:         #707070;
-  scroll-behavior: smooth; /*  Для плавної прокрутки*/
-}
-
-h2 {
-  font-size: 52px;
-  font-weight: 800;
-}
-
-h2 span {
-  font-size: 52px;
-  font-weight: 800;
-  color: var(--button-color);
-}
-
-h3 {
-  font-size: 18px;
-  font-weight: 500;
-}
-
-a {
-  text-decoration: none;
-}
-
-.icons a {
-  display: inline-block;
-  text-align: center;
-  background-color: var(--font-color);
-  border-radius: 5px;
-  height: 27px;
-  width: 27px;
-  padding-top: 3px;
-  color: var(--dark-background-color);
-  transition: 0.5s;
-}
-
-.icons a:hover {
-  background-color: var(--date-color);
-  color: var(--font-color)
-}
-
-.logo p {
-  color: var(--font-color);
-  font-size: 30px;
-  font-style: italic;
-  font-weight: bolder;
-  margin-left: -30px;
-}
-
-.logo p span {
-  color: var(--button-color)
+  --date-color: #6fb72f;
+  --font-color: #ffffff;
+  --dark-background-color: #232a35;
+  --white-color: #fff;
+  --dark-background-color: #01070f;
+  --color-for-point: #0f59d1;
+  --company-clogan-name: #a9a9a9;
 }
