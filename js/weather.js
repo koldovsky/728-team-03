@@ -11,5 +11,5 @@
 
     const {icon} = weather.weather[0];
     
-    output.innerHTML = `<div class="weather-icon"><a href="https://openweathermap.org/city/2643743"><img src="./images/icons/${icon}.png"></a></div><p class="weather">${weather.name} - ${weather.weather[0].main} - ${weather.main.temp}˚</p>`;
+    output.innerHTML = `<div class="weather-icon"><a href="https://openweathermap.org/city/2643743" target="blank"><img src="./images/icons/${icon}.png"></a></div><a href="https://openweathermap.org/city/2643743" target="blank"><p class="weather">${weather.name} - ${weather.weather[0].main} - ${weather.main.temp}˚</p></a>`;
 })();
