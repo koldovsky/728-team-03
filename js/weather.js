@@ -7,10 +7,9 @@
     console.log(weather);
     const temp = weather.main.temp;
 
-    const output = document.querySelector('.footer__map');
-    output.innerHTML = `<iframe
-                              src="https://www.openstreetmap.org/export/embed.html?bbox=-0.15731424093246463%2C52.782081632850726%2C-0.15441745519638064%2C52.783566038807784&amp;layer=mapnik">
-                        </iframe>
-                        <p class="weather">${weather.name} - ${weather.weather[0].main} - ${weather.main.temp}˚</p> `;
+    const output = document.querySelector('.weather__description');
 
+    const {icon} = weather.weather[0];
+    
+    output.innerHTML = `<div class="weather-icon"><a href="https://openweathermap.org/city/2643743"><img src="./images/icons/${icon}.png"></a></div><p class="weather">${weather.name} - ${weather.weather[0].main} - ${weather.main.temp}˚</p>`;
 })();
