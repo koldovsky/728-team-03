@@ -1,7 +1,7 @@
 .general-block {
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
+    overflow-x: hidden;  /*забрати горизонтальну прокрутку*/
 }
 
 .general-block-background {
