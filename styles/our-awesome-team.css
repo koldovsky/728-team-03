@@ -1,11 +1,11 @@
-.general-block {
+.awesome-team-general-bloc{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     overflow-x: hidden;
     /*забрати горизонтальну прокрутку*/
 }
 
-.general-block-background {
+.awesome-team-general-block-background{
     background-image: url(../images/background-our-awesome-team.jpg);
     background-size: cover;
 }
@@ -19,11 +19,21 @@
 }
 
 .name-partner {
+    display: flex;
+    flex-direction: column;
     color: #fff;
     text-align: left;
     padding: 10px;
 }
-
+name-partner-team{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
 .partner {
     font-size: inherit;
     font-family: 'Saira', sans-serif;
@@ -46,7 +56,7 @@
     color: blue;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 767px) {
     .photo {
         width: 100%;
         display: block;
@@ -56,17 +66,7 @@
     }
 }
 
-@media (min-width: 320px) {
-    .photo {
-        width: 100%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px;
-    }
-}
-
-@media (max-width: 768px) {
+@media (min-width: 770px) {
     /*Переключає на Div рядок*/
     .photo {
         width: 100%;
@@ -75,9 +75,8 @@
         margin-right: auto;
         padding: 10px;
     }
-}
-
-*.general-photos-with-text {
-    display: flex;
-    flex-direction: row;
+    .general-photos-with-text { 
+        display: flex;
+        flex-direction: row;
+    }
 }
