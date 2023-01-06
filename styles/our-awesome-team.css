@@ -1,11 +1,8 @@
-.awesome-team-general-bloc{
+.awesome-team-general-bloc {
     display: flex;
-    /* flex-direction: column; */
-    overflow-x: hidden;
-    /*забрати горизонтальну прокрутку*/
 }
 
-.awesome-team-general-block-background{
+.awesome-team-general-block-background {
     background-image: url(../images/background-our-awesome-team.jpg);
     background-size: cover;
 }
@@ -14,7 +11,6 @@
 .block__head-our-team_container__team {
     text-align: center;
     color: #fff;
-    padding: 20px;
     font-size: 16px;
 }
 
@@ -25,15 +21,15 @@
     text-align: left;
     padding: 10px;
 }
-name-partner-team{
+
+name-partner-team {
     display: flex;
     flex-direction: column;
     color: #fff;
     text-align: left;
     padding: 10px;
-    font-size: 22px;
-    font-family: 'Poppins', sans-serif;
 }
+
 .partner {
     font-size: inherit;
     font-family: 'Saira', sans-serif;
@@ -56,6 +52,11 @@ name-partner-team{
     color: blue;
 }
 
+.pname-partner-team {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
 @media (max-width: 767px) {
     .photo {
         width: 100%;
@@ -66,17 +67,89 @@ name-partner-team{
     }
 }
 
-@media (min-width: 770px) {
+@media (min-width: 767px) {
     /*Переключає на Div рядок*/
     .photo {
-        width: 100%;
+        width: 15em;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
         padding: 10px;
     }
-    .general-photos-with-text { 
+
+    .general-photos-with-text {
         display: flex;
         flex-direction: row;
+        align-items: baseline;
+        /* вирівнює текст під картинками */
+    }
+}
+
+@media (min-width: 868px) {
+    .photo {
+        width: 15em;
+        display: block;
+        padding: 10px;
+    }
+
+    .general-photos-with-text {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+}
+
+@media (min-width: 968px) {
+    .photo {
+        width: 18em;
+        display: block;
+        padding: 10px;
+    }
+
+    .general-photos-with-text {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+}
+
+@media (min-width: 1068px) {
+    /*Переключає на Div рядок*/
+    .photo {
+        width: 20em;
+        display: block;
+        padding: 10px;
+    }
+
+    .general-photos-with-text {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+}
+
+@media (min-width: 1268px) {
+    .photo {
+        width: 22em;
+        display: block;
+        padding: 10px;
+    }
+
+    .general-photos-with-text {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+}
+
+@media (min-width: 1968px) {
+    .photo {
+        width: 26em;
+        display: block;
+        padding: 10px;
+    }
+
+    .general-photos-with-text {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
     }
 }
