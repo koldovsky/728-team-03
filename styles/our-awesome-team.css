@@ -1,5 +1,7 @@
 .awesome-team-general-bloc {
     display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
 }
 
 .awesome-team-general-block-background {
