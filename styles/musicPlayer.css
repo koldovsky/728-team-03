@@ -28,38 +28,18 @@
   background-color: hsla(0, 2%, 66%, 0.502);
   border-radius: 0 0 15px 15px;
   position: absolute;
-  padding: 30px 60px 30px 100px;
+  padding-left: 80px;
+  padding-right: 90px;
   opacity: 0;
   transition: transform 0.3s ease-in, opacity 0.3s ease-in;
 }
 
 .music-container.play .music-info {
   opacity: 1;
-  transform: translateY(+33%);
-}
-
-.music-info h4 {
-  margin: 0;
-}
-
-.progress-container {
-  background-color: var(--white-color);
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 10px 0 0 -10px;
   transform: translateY(+100%);
 }
 
 .progress-container {
-  margin: -20px 0 20px -15px;
+  margin: 10px 0;
   height: 10px;
-  width:100px;
-}
-
-.progress {
-  background-color: var(--color-for-point);
-  border-radius: 5px;
-  height: 100%;
-  width: 0%;
-  transition: width 0.1s linear;
 }
