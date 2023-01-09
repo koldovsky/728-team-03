@@ -111,7 +111,7 @@
   .header__menu__list {
     flex-direction: column;
     align-items: center;
-    margin-top: -300px;
+    margin-top: -150px;
   }
 
   .header__menu__item {
@@ -146,7 +146,7 @@
 
   .header__top__phone {
     margin: 0;
-    padding-top: 320px;
+    padding-top: 390px;
   }
 
   .header_top_phone_number.active {
