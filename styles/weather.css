@@ -1,0 +1,44 @@
+.container-fluidW {
+  width: 410px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.inputsW {
+  text-align: center;
+}
+
+.inputsW input[type="text"] {
+  font-weight: bold;
+  border: 2px solid #c2c2c2;
+}
+.inputsW input[type="submit"] {
+  background: #0a67ca;
+  color: white;
+}
+
+.displayW {
+  text-align: center;
+}
+.wrapperW {
+  border-radius: 2px;
+}
+
+.cityoutputWe {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.tempWe {
+  color: white;
+  font-size: 23px;
+}
+
+.wrapperW h2 span {
+  font-size: 26px;
+  color: white;
+}
+.wrapperW p span {
+  color: white;
+  font-size: 25px;
+}
