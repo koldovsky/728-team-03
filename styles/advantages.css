@@ -364,7 +364,8 @@ body {
 }
 
 .icon__title__name {
-    display: inline;
+    display: flex;
+    flex-direction: row;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
