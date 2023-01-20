@@ -364,8 +364,7 @@ body {
 }
 
 .icon__title__name {
-    display: flex;
-    flex-direction: row;
+    display: inline;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -493,8 +492,8 @@ body {
 }
 
 .icon__title__name {
-    height: auto;
-    width: auto;   
+    width: 281px;
+    height: 48px;
 }
 
 }
@@ -603,8 +602,8 @@ body {
 }
 
 .icon__title__name {
-    height: auto;
-    width: auto;
+    width: 281px;
+    height: 48px;
 }
 
 }
@@ -725,8 +724,9 @@ body {
 }
 
 .icon__title__name {
-    height: auto;
-    width: auto;
+    height: 50px;
+    min-width: 40%;
+    width: 261.701px;
 }
 
 }
