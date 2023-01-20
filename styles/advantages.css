@@ -349,8 +349,7 @@ body {
 }
 
 .icon__name {
-    display: flex;
-    flex-direction: row;
+    display: inline;
     align-items: center;
     text-align: start;
     font-size: 16px;
@@ -378,6 +377,7 @@ body {
     vertical-align: baseline;
     white-space: pre-wrap;
     width: auto;
+    word-break: break-word;
 }
 
 
@@ -492,8 +492,8 @@ body {
 }
 
 .icon__title__name {
-    width: 281px;
-    height: 48px;
+    width: auto;
+    height: auto;
 }
 
 }
@@ -602,8 +602,8 @@ body {
 }
 
 .icon__title__name {
-    width: 281px;
-    height: 48px;
+    width: auto;
+    height: auto;
 }
 
 }
@@ -724,9 +724,8 @@ body {
 }
 
 .icon__title__name {
-    height: 50px;
-    min-width: 40%;
-    width: 261.701px;
+    width: auto;
+    height: auto;
 }
 
 }
