@@ -257,6 +257,7 @@ body {
     text-align: left;
     vertical-align: baseline;
     width: 272.333px;
+    position: 0px;
 }
 
 .adv__list__icon__content {
@@ -264,15 +265,15 @@ body {
     flex-wrap: wrap;
     font-size: 16px;
     font-weight: 400;
+    height: 64.9906px;
     line-height: 24px;
-    height: 64.973px;
     list-style-type: none;
     margin-left: -7.5px;
     margin-right: -7.5px;
     overflow-wrap: break-word;
     text-align: left;
     vertical-align: baseline;
-    width: 287.312px;
+    width: 287.3px;
 }
 
 .icon__container {
@@ -286,7 +287,7 @@ body {
     list-style-type: none;
     margin-left: 7.500px;
     margin-right: 7.500px;
-    margin-top: 20px;
+    margin-top: 7.500px;
     margin-bottom: 7.500px;
     max-width: 100%;
     overflow-wrap: break-word;
@@ -308,6 +309,7 @@ body {
 .adv__list__icon__wrapper {
     display: flex;
     flex-basis: 0%;
+    flex: 1;
     flex-direction: column;
     font-size: 16px;
     font-weight: 400;
@@ -320,7 +322,7 @@ body {
     overflow-wrap: break-word;
     text-align: left;
     vertical-align: baseline;
-    width: 207.36px;
+    width: 207.319px;
 }
 
 .list__icon__title {
@@ -350,22 +352,16 @@ body {
 
 .icon__name {
     display: inline;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    height: 48px;
-    letter-spacing: 0.8px;
-    line-height: 24px;
-    list-style-type: none;
-    overflow-wrap: break-word;
+    align-items: center;
     text-align: left;
-    text-transform: none;
-    vertical-align: baseline;
-    white-space: pre-wrap;
+    font-size: 16px;
+    font-size: 400;
+    line-height: 24px;
+    text-align: left;
     width: 281px;
-    word-break: break-word;
+    height: 48px;
+    position: relative;
 }
-
 
 
 
@@ -467,7 +463,7 @@ body {
 
 .adv__list__icon__wrapper {
     height: 50px;
-    width: 207.36px;
+    width: 207.319px;
 }
 
 .list__icon__title {
@@ -480,8 +476,8 @@ body {
 }
 
 .icon__title__name {
-    width: auto;
     height: auto;
+    width: auto;   
 }
 
 }
@@ -495,6 +491,8 @@ body {
 }
 
 .adv__container {
+    margin-top: 0px;
+    margin-bottom: 0px;
     height: 779.429px;
     width: 752.256px
 }
@@ -590,8 +588,8 @@ body {
 }
 
 .icon__title__name {
-    width: auto;
     height: auto;
+    width: auto;
 }
 
 }
@@ -693,7 +691,7 @@ body {
 
 .adv__list__icon__wrapper {
     height: 69.9953px;
-    width: 242.04px;
+    width: 268.362px;
 }
 
 .list__icon__title {
@@ -712,8 +710,8 @@ body {
 }
 
 .icon__title__name {
-    width: auto;
     height: auto;
+    width: auto;
 }
 
 }
@@ -1207,10 +1205,19 @@ body {
 }
 
 .res__grid__item__inner {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
     font-size: 16px;
     font-weight: 400;
     height: 115.443px;
+    justify-content: flex-start;
     line-height: 24px;
+    max-width: 100%;
+    min-width: 0px;
+    word-wrap: break-word;
+    text-align: left;
+    vertical-align: baseline;
     width: 257.513px;     
 }
 
