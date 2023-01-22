@@ -11,7 +11,7 @@ body {
     list-style: none;
 }
 
-.container {
+.my-container {
     max-width: 1200px; 
     margin: auto;
 }
@@ -49,7 +49,6 @@ body {
     max-width: 1200px;
     overflow-wrap: break-word;
     position: relative;
-    vertical-align: baseline;
     z-index: 1;
 }
 
@@ -88,7 +87,6 @@ body {
     position: relative;
     text-align: center;
     text-transform: none;
-    vertical-align: baseline;
     position: 0px;
 }
 
@@ -128,7 +126,6 @@ body {
     position: relative;
     text-align: center;
     text-transform: none;
-    vertical-align: baseline;
     width: 272.333px;
     position: 0px;
 }
@@ -160,7 +157,6 @@ body {
     line-height: 24px;
     margin-top: 45px;
     overflow-wrap: break-word;
-    vertical-align: baseline;
     width: 272.333px;
 }
 
@@ -239,7 +235,6 @@ body {
     padding-inline-start: 0px;
     position: relative;
     text-align: left;
-    vertical-align: baseline;
     width: 272.333px;
 }
 
@@ -344,7 +339,6 @@ body {
     position: relative;
     text-align: left;
     text-transform: none;
-    vertical-align: baseline;
     word-spacing: pre-wrap;
     width: 202.373px;
     word-break: break-word;
@@ -362,7 +356,6 @@ body {
     height: 48px;
     position: relative;
 }
-
 
 
 
@@ -758,7 +751,6 @@ body {
     padding-bottom: 90px;
     padding-top: 90px;
     position: relative;
-    vertical-align: baseline;
     width: 320.301px;
     z-index: 1;
     position: 0px;
@@ -774,7 +766,6 @@ body {
     padding-left: 24px;
     padding-right: 24px;
     overflow-wrap: break-word;
-    vertical-align: baseline;
     width: 320.301px;
 }
 
@@ -786,7 +777,6 @@ body {
     line-height: 24px;
     overflow-wrap: break-word;
     text-align: left;
-    vertical-align: baseline;
     width: 272.333px;
 }
 
@@ -881,7 +871,6 @@ body {
     position: relative;
     text-align: left;
     text-transform: none;
-    vertical-align: baseline;
     width: 272.333px;
 }
 
@@ -896,7 +885,6 @@ body {
     overflow-wrap: break-word;
     text-align: left;
     text-transform: none;
-    vertical-align: baseline;
     width: 272.31px;
 }
 
@@ -934,7 +922,6 @@ body {
     overflow-wrap: break-word;
     text-align: left;
     text-transform: none;
-    vertical-align: baseline;
     width: 272.31px;
 }
 
